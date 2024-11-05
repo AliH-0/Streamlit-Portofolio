@@ -55,8 +55,8 @@ def project_lister(proj):
     projects_info = {
         'Streamlit + Plotly: Superstore Data Analysis and Visualization Dashboard': 
             "Developed an interactive dashboard using Streamlit for exploring and analyzing the Superstore dataset. "
-            "Users can visualize key metrics like sales and profits through various dynamic charts."
-             " [View Project](https://superstore-data-analysis-and-visualization-dashboard.streamlit.app)",
+            "Users can visualize key metrics like sales and profits through various dynamic charts. "
+            "[View Project](https://superstore-data-analysis-and-visualization-dashboard.streamlit.app)",
         
         'Reinforcement Learning Using Deep Q-Learning': 
             "Created a deep Q-learning model to simulate spacecraft landing, demonstrating advanced reinforcement learning techniques with optimized control algorithms.",
@@ -74,7 +74,7 @@ st.write(f"**Description:** {project_lister(opt)}")
 
 # Add an image for the Airbnb project
 if opt == 'Airbnb Listings Analysis Using Tableau':
-    st.image("airbnb.jpg", caption="Airbnb Listings Analysis Dashboard", use_column_width=True)
+    st.image("airBnb.jpg", caption="Airbnb Listings Analysis Dashboard", use_column_width=True)
 
 st.write("<div class='section-divider'></div>", unsafe_allow_html=True)
 
