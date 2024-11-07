@@ -62,7 +62,7 @@ def project_lister(proj):
         'Tableau: Interactive and Dynamic Dashboard for British Airway Reviews':
             "Implemented a Dashboard for British Airways reviews that has a sidebar with multiple filtering options for "
             "different metrics, date, traveler type, etc. Includes an interactive map showcasing overall ratings by country. "
-            "Dashboard always showcases average for every metric."
+            "Dashboard always showcases average for every metric. "
             "A custom parameter was added to display currently selected metrics based on metric filter. "
             "[View Project](https://public.tableau.com/app/profile/ali.el.husseini/viz/BritishAirways_17309565539610/Dashboard1?publish=yes)",
         
