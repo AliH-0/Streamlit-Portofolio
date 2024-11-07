@@ -23,7 +23,6 @@ st.markdown("<p class='main-title'>Ali El Husseini</p>", unsafe_allow_html=True)
 st.subheader('Computer Scientist | Data Analyst')
 
 st.markdown("<p class='contact-info'>Email: ali.h.husseini0@gmail.com</p>", unsafe_allow_html=True)
-st.markdown("<p class='contact-info'>Phone: +961 70 280082</p>", unsafe_allow_html=True)
 
 # Divider
 st.write("<div class='section-divider'></div>", unsafe_allow_html=True)
