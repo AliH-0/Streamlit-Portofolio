@@ -45,6 +45,7 @@ st.write("<div class='section-divider'></div>", unsafe_allow_html=True)
 st.subheader("Projects")
 proj = [
     'Streamlit + Plotly: Superstore Data Analysis and Visualization Dashboard', 
+    'Tableau: Interactive and Dynamic Dashboard for British Airway Reviews',
     'Reinforcement Learning Using Deep Q-Learning', 
     'Airbnb Listings Analysis Using Tableau',
     'E-Commerce Website for Supermarket Management'
@@ -57,6 +58,12 @@ def project_lister(proj):
             "Developed an interactive dashboard using Streamlit for exploring and analyzing the Superstore dataset. "
             "Users can visualize key metrics like sales and profits through various dynamic charts. "
             "[View Project](https://superstore-data-analysis-and-visualization-dashboard.streamlit.app)",
+        
+        'Tableau: Interactive and Dynamic Dashboard for British Airway Reviews':
+            "Implemented a Dashboard for British Airways reviews that has a sidebar with multiple filtering options for "
+            "different metrics, date, traveler type, etc. Includes an interactive map showcasing overall ratings by country. "
+            "A custom parameter was added to display currently selected metrics based on filters. "
+            "[View Project](https://public.tableau.com/app/profile/ali.el.husseini/viz/BritishAirways_17309565539610/Dashboard1?publish=yes)",
         
         'Reinforcement Learning Using Deep Q-Learning': 
             "Created a deep Q-learning model to simulate spacecraft landing, demonstrating advanced reinforcement learning techniques with optimized control algorithms.",
@@ -72,9 +79,11 @@ def project_lister(proj):
 st.write(f"**Project Title:** {opt}")
 st.write(f"**Description:** {project_lister(opt)}")
 
-# Add an image for the Airbnb project
 if opt == 'Airbnb Listings Analysis Using Tableau':
-    st.image("airBnb.jpg", caption="Airbnb Listings Analysis Dashboard", use_column_width=True)
+    st.image("airbnb.jpg", caption="Airbnb Listings Analysis Dashboard", use_column_width=True)
+    
+if opt == 'Tableau: Interactive and Dynamic Dashboard for British Airway Reviews':
+    st.image("british_airway.png", caption="British Airway Reviews Dashboard", use_column_width=True)
 
 st.write("<div class='section-divider'></div>", unsafe_allow_html=True)
 
