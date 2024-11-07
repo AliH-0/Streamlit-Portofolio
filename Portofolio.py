@@ -3,7 +3,7 @@ import plotly.express as px
 import pandas as pd
 
 # Setting custom page config for better aesthetics
-st.set_page_config(page_title="Ali Husseini Portfolio", layout="centered", page_icon="💼")
+st.set_page_config(page_title="Ali El Husseini Portofolio", layout="centered", page_icon="💼")
 
 # Style updates for consistent aesthetics
 st.markdown(
@@ -19,7 +19,7 @@ st.markdown(
 )
 
 # Title and Contact Information
-st.markdown("<p class='main-title'>Ali Husseini</p>", unsafe_allow_html=True)
+st.markdown("<p class='main-title'>Ali El Husseini</p>", unsafe_allow_html=True)
 st.subheader('Computer Scientist | Data Analyst')
 
 st.markdown("<p class='contact-info'>Email: ali.h.husseini0@gmail.com</p>", unsafe_allow_html=True)
